@@ -144,3 +144,15 @@ transform-origin: top right;
 .num16>div:hover{
     transform: perspective(200px) rotateY(60deg);
 }
+.num17>div{
+    transform-origin: top;
+}
+.num17>div:hover{
+    transform: scaleY(1.5);
+}
+.num27>div{
+    transform-origin: bottom;
+}
+.num27>div:hover{
+    transform: scaleY(1.5);
+}
