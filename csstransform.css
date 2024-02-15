@@ -21,7 +21,7 @@ div>div{
     position: sticky;
     background-color: rgb(196, 190, 190);
 }
-.num1>div, .num2>div, .num3>div, .num4>div, .num5>div, .num12>div, .num22>div, .num32>div, .num42>div, .num52>div, .num13>div, .num23>div, .num14>div, .num24>div, .num35>div, .num45>div, .num55>div, .num16>div, .num26>div, .num36>div, .num46>div, .num56>div{
+.num1>div, .num2>div, .num3>div, .num4>div, .num5>div, .num12>div, .num22>div, .num32>div, .num42>div, .num52>div, .num13>div, .num23>div, .num14>div, .num24>div, .num35>div, .num55>div, .num16>div, .num26>div, .num36>div, .num46>div, .num56>div{
     width: 90px;
     height: 90px;
     background-color: rgb(210, 149, 216);
@@ -100,7 +100,11 @@ transform-origin: top right;
 }
 .num45>div{
     transform-origin: top;
-} 
-.num45>div:hover{
-   transform: ;
-} 
+    width: 90px;
+    height: 90px;
+    background-color: rgb(210, 149, 216);
+    transition-duration: 0.5s;
+}
+.num45:hover{
+    transform: rotateX(60deg);
+}
