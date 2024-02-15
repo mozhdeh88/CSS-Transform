@@ -75,7 +75,7 @@ div>div{
 .num15>div{
 width: 90px;
 height: 90px;
-background-color: rgb(210, 149, 216);
+background-color: rgba(210, 149, 216, 0.7);
 transition-duration: 0.5s;
 transform-origin: top right;
 }
@@ -85,7 +85,7 @@ transform-origin: top right;
 .num25>div{
     width: 90px;
     height: 90px;
-    background-color: rgb(210, 149, 216);
+    background-color: rgba(210, 149, 216, 0.7);
     transition-duration: 0.5s;
     transform-origin: bottom left;
     }
@@ -102,7 +102,7 @@ transform-origin: top right;
     transform-origin: top;
     width: 90px;
     height: 90px;
-    background-color: rgb(210, 149, 216);
+    background-color: rgba(210, 149, 216, 0.7);
     transition-duration: 0.5s;
 }
 .num45>div:hover{
