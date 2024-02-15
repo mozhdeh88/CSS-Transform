@@ -105,6 +105,12 @@ transform-origin: top right;
     background-color: rgb(210, 149, 216);
     transition-duration: 0.5s;
 }
-.num45:hover{
-    transform: rotateX(60deg);
+.num45>div:hover{
+    transform: perspective(200px) rotateX(60deg);
+}
+.num55>div{
+    transform-origin: left;
+}
+.num55>div:hover{
+    transform: perspective(100px) rotateY(30deg);
 }
