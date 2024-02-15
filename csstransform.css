@@ -17,11 +17,11 @@ div>div{
     height: 90px;
 }
 .num1, .num2, .num3, .num4, .num5, .num12, .num22, .num32, .num42, .num52, .num13, .num23, .num14, .num24,
-.num15, .num25, .num35, .num45, .num55, .num16, .num26, .num36, .num46, .num56{
+.num15, .num25, .num35, .num45, .num55, .num16, .num26, .num36, .num46, .num56, .num17, .num27{
     position: sticky;
     background-color: rgb(196, 190, 190);
 }
-.num1>div, .num2>div, .num3>div, .num4>div, .num5>div, .num12>div, .num22>div, .num32>div, .num42>div, .num52>div, .num13>div, .num23>div, .num14>div, .num24>div, .num35>div, .num55>div, .num16>div, .num26>div, .num36>div, .num46>div, .num56>div{
+.num1>div, .num2>div, .num3>div, .num4>div, .num5>div, .num12>div, .num22>div, .num32>div, .num42>div, .num52>div, .num13>div, .num23>div, .num14>div, .num24>div, .num35>div, .num55>div, .num16>div, .num26>div, .num36>div, .num46>div, .num56>div, .num17>div, .num27>div{
     width: 90px;
     height: 90px;
     background-color: rgb(210, 149, 216);
@@ -113,4 +113,34 @@ transform-origin: top right;
 }
 .num55>div:hover{
     transform: perspective(100px) rotateY(30deg);
+}
+.num56>div{
+    transform-origin: left;
+}
+.num56>div:hover{
+    transform: scaleX(2);
+}
+.num46>div{
+    transform-origin: right;
+}
+.num46>div:hover{
+    transform: scaleX(2);
+}
+.num36>div{
+    transform-origin: bottom left;
+}
+.num36>div:hover{
+    transform: scale(2);
+}
+.num26>div{
+    transform-origin: top right;
+}
+.num26>div:hover{
+    transform: scale(2);
+}
+.num16>div{
+    transform-origin: right;
+}
+.num16>div:hover{
+    transform: perspective(200px) rotateY(60deg);
 }
