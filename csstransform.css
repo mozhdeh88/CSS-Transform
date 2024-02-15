@@ -24,7 +24,7 @@ div>div{
 .num1>div, .num2>div, .num3>div, .num4>div, .num5>div, .num12>div, .num22>div, .num32>div, .num42>div, .num52>div, .num13>div, .num23>div, .num14>div, .num24>div, .num35>div, .num55>div, .num16>div, .num26>div, .num36>div, .num46>div, .num56>div, .num17>div, .num27>div{
     width: 90px;
     height: 90px;
-    background-color: rgb(210, 149, 216);
+    background-color: rgba(210, 149, 216, 0.7);
     transition-duration: 1s;
 }
 .num1>div:hover{
