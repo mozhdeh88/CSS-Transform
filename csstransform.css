@@ -1,0 +1,106 @@
+section{
+    display: flex;
+    justify-content: flex-start;
+}
+.div1{
+    width: 150px;
+    height: 110px;
+    background-color: rgb(245, 225, 199);
+    margin-left: 6rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div>div{
+    width: 90px;
+    height: 90px;
+}
+.num1, .num2, .num3, .num4, .num5, .num12, .num22, .num32, .num42, .num52, .num13, .num23, .num14, .num24,
+.num15, .num25, .num35, .num45, .num55, .num16, .num26, .num36, .num46, .num56{
+    position: sticky;
+    background-color: rgb(196, 190, 190);
+}
+.num1>div, .num2>div, .num3>div, .num4>div, .num5>div, .num12>div, .num22>div, .num32>div, .num42>div, .num52>div, .num13>div, .num23>div, .num14>div, .num24>div, .num35>div, .num45>div, .num55>div, .num16>div, .num26>div, .num36>div, .num46>div, .num56>div{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(210, 149, 216);
+    transition-duration: 1s;
+}
+.num1>div:hover{
+    transform: rotate(50deg);
+}
+.num2>div:hover{
+    transform: scaleY(0.7)
+}
+.num3>div:hover{
+    transform: scaleX(0.7);
+}
+.num4>div:hover{
+    transform: scale(1.5 , 1.5);
+}
+.num5>div:hover{
+    transform: scaleX(2);
+}
+.num52>div:hover{
+    transform: translate(50px);
+}
+.num42>div:hover{
+    transform: translate(50px,25px);
+}
+.num32>div:hover{
+    transform: skewY(40deg);
+}
+.num22>div:hover{
+    transform: skewX(40deg);
+}
+.num12>div:hover{
+    transform: scaleY(2);
+}
+.nes{
+   margin-left: 350px;
+}
+.num13>div:hover{
+    transform: translateY(30px);
+}
+.num23>div:hover{
+    transform: skewY(40deg) scale(1.6) translateX(15px);
+}
+.num24>div:hover{
+    transform: perspective(100px) rotateY(45deg);
+}
+.num14>div:hover{
+    transform: perspective(100px) rotateX(45deg);
+}
+.num15>div{
+width: 90px;
+height: 90px;
+background-color: rgb(210, 149, 216);
+transition-duration: 0.5s;
+transform-origin: top right;
+}
+.num15>div:hover{
+    transform: perspective(80px) rotate(50deg);
+} 
+.num25>div{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(210, 149, 216);
+    transition-duration: 0.5s;
+    transform-origin: bottom left;
+    }
+.num25>div:hover{
+    transform:  rotate(50deg);
+} 
+.num35>div{
+    transform-origin: bottom;
+}
+.num35>div:hover{
+    transform: perspective(90px) rotateX(20deg);
+}
+.num45>div{
+    transform-origin: top;
+} 
+.num45>div:hover{
+   transform: ;
+} 
